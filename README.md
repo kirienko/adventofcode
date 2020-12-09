@@ -1,7 +1,7 @@
 # Advent of Code 2020
 
 |Task|Solution|Comment|
-|---|---|---|
+|---|:---:|---|
 |[01](https://adventofcode.com/2020/day/1) Report Repair       |[⭐⭐](2020/day_01.py)||
 |[02](https://adventofcode.com/2020/day/2) Password Philosophy |[⭐⭐](2020/day_02.py)||
 |[03](https://adventofcode.com/2020/day/3) Toboggan Trajectory |[⭐⭐](2020/day_03.py)||
@@ -9,7 +9,7 @@
 |[05](https://adventofcode.com/2020/day/5) Binary Boarding     |[⭐⭐](2020/day_05.py)|just binary encoding|
 |[06](https://adventofcode.com/2020/day/6) Custom Customs      |[⭐⭐](2020/day_06.py)|`set` intersections (4 lines)|
 |[07](https://adventofcode.com/2020/day/7) Handy Haversacks    |[⭐⭐](2020/day_07.py)|[`networkx`](https://networkx.org/) + [BFS](https://en.wikipedia.org/wiki/Breadth-first_search)|
-|[08](https://adventofcode.com/2020/day/8) Handheld Halting    |[⭐⭐](2020/day_08.py)|classes, generators, recursion |
+|[08](https://adventofcode.com/2020/day/8) Handheld Halting    |[⭐⭐](2020/day_08.py)|classes, generators, recursion — like on a real console |
 |[09](https://adventofcode.com/2020/day/9) Encoding Error      |[⭐⭐](2020/day_09.py)|just `itertools`|
 |[10](https://adventofcode.com/2020/day/10) -|-|
 |[11](https://adventofcode.com/2020/day/11) -|-|
