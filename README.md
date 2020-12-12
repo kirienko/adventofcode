@@ -11,9 +11,9 @@
 |[07](https://adventofcode.com/2020/day/7) Handy Haversacks    |[⭐⭐](2020/day_07.py)|[`networkx`](https://networkx.org/) + [BFS](https://en.wikipedia.org/wiki/Breadth-first_search)|
 |[08](https://adventofcode.com/2020/day/8) Handheld Halting    |[⭐⭐](2020/day_08.py)|classes, generators, recursion — like on a real console |
 |[09](https://adventofcode.com/2020/day/9) Encoding Error      |[⭐⭐](2020/day_09.py)|just `itertools`|
-|[10](https://adventofcode.com/2020/day/10) -|-|
-|[11](https://adventofcode.com/2020/day/11) -|-|
-|[12](https://adventofcode.com/2020/day/12) -|-|
+|[10](https://adventofcode.com/2020/day/10) Adapter Array      |[⭐](2020/day_10.py)| this is really tricky|
+|[11](https://adventofcode.com/2020/day/11) Seating System     |[⭐](2020/day_11.py)| quite cumbersome |
+|[12](https://adventofcode.com/2020/day/12) Rain Risk          |-|
 |[13](https://adventofcode.com/2020/day/13) -|-|
 |[14](https://adventofcode.com/2020/day/14) -|-|
 |[15](https://adventofcode.com/2020/day/15) -|-|
