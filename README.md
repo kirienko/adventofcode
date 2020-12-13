@@ -13,8 +13,8 @@
 |[09](https://adventofcode.com/2020/day/9) Encoding Error      |[⭐⭐](2020/day_09.py)|just `itertools`|
 |[10](https://adventofcode.com/2020/day/10) Adapter Array      |[⭐](2020/day_10.py)| this is really tricky|
 |[11](https://adventofcode.com/2020/day/11) Seating System     |[⭐](2020/day_11.py)| quite cumbersome |
-|[12](https://adventofcode.com/2020/day/12) Rain Risk          |[⭐⭐](2020/day_09.py)| nothing but `mod(4)` operations|
-|[13](https://adventofcode.com/2020/day/13) -|-|
+|[12](https://adventofcode.com/2020/day/12) Rain Risk          |[⭐⭐](2020/day_12.py)| nothing but `mod(4)` operations|
+|[13](https://adventofcode.com/2020/day/13) Shuttle Search     |[⭐](2020/day_13.py)| brute-force doesn't work well|
 |[14](https://adventofcode.com/2020/day/14) -|-|
 |[15](https://adventofcode.com/2020/day/15) -|-|
 |[16](https://adventofcode.com/2020/day/16) -|-|

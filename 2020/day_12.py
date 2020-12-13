@@ -1,4 +1,4 @@
-with open('./data/data_12.txt') as fd:
+with open('data/day_12.txt') as fd:
     data = fd.read().split('\n')
 
 dirs = ('E', 'S', 'W', 'N')
