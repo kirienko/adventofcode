@@ -16,8 +16,8 @@
 |[12](https://adventofcode.com/2020/day/12) Rain Risk          |[⭐⭐](2020/day_12.py)| nothing but `mod(4)` operations|
 |[13](https://adventofcode.com/2020/day/13) Shuttle Search     |[⭐](2020/day_13.py)| brute-force doesn't work well|
 |[14](https://adventofcode.com/2020/day/14) -                  |-|
-|[15](https://adventofcode.com/2020/day/15) Rambunctious Recitation|[⭐⭐](2020/day_15.py)| Ordered Deafultdict|
-|[16](https://adventofcode.com/2020/day/16) -|-|
+|[15](https://adventofcode.com/2020/day/15) Rambunctious Recitation|[⭐⭐](2020/day_15.py)| Ordered Defaultdict|
+|[16](https://adventofcode.com/2020/day/16) Ticket Translation |[⭐⭐](2020/day_16.py)||
 |[17](https://adventofcode.com/2020/day/17) -|-|
 |[18](https://adventofcode.com/2020/day/18) -|-|
 |[19](https://adventofcode.com/2020/day/19) -|-|

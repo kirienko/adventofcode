@@ -10,11 +10,9 @@ class OrderedDefaultdict(OrderedDict):
         return ret
 
 
-puzzle = [-1] + puzzle  # to start counting from ONE
-
 for i, max_turn in enumerate((2020, 30000000)):
     data = OrderedDefaultdict(zip(puzzle, (deque([i], maxlen=2) for i in range(len(puzzle)))))
-    for turn in range(len(data), max_turn + 1):
+    for turn in range(len(data), max_turn):
         last, dq = data.popitem()
         if len(dq) == 1:
             data[last] = dq
