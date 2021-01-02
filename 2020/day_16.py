@@ -44,7 +44,6 @@ for _ in range(len(candidates)):
         if len(f) == 1:
             if f[0] in rules_d:
                 rules_d.pop(f[0])
-            continue
         else:
             candidates[i] = []
 
