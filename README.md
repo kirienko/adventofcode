@@ -4,7 +4,7 @@
 |---|:---:|---|
 |[01](https://adventofcode.com/2021/day/1) Sonar Sweep       |[⭐⭐](2021/day_01.py)||
 |[02](https://adventofcode.com/2021/day/2) Dive!             |[⭐⭐](2021/day_02.py)||
-|[03](https://adventofcode.com/2021/day/3) Binary Diagnostic |[⭐  ](2021/day_03.py)||
+|[03](https://adventofcode.com/2021/day/3) Binary Diagnostic |[⭐⭐](2021/day_03.py)| pandas `mode()` and recursive filtering|
 |[04](https://adventofcode.com/2021/day/4)  -|-|
 |[05](https://adventofcode.com/2021/day/5)  -|-|
 |[06](https://adventofcode.com/2021/day/6)  -|-|
