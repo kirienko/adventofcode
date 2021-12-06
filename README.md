@@ -6,8 +6,8 @@
 |[02](https://adventofcode.com/2021/day/2) Dive!                |[⭐⭐](2021/day_02.py)||
 |[03](https://adventofcode.com/2021/day/3) Binary Diagnostic    |[⭐⭐](2021/day_03.py)| pandas `mode()` and recursive filtering|
 |[04](https://adventofcode.com/2021/day/4) Giant Squid          |[⭐⭐](2021/day_04.py)| sets and frozensets |
-|[05](https://adventofcode.com/2021/day/5) Hydrothermal Venture |[--](2021/day_05.py)|
-|[06](https://adventofcode.com/2021/day/6)  -|-|
+|[05](https://adventofcode.com/2021/day/5) Hydrothermal Venture |[⭐⭐](2021/day_05.py)| `sympy` helps |
+|[06](https://adventofcode.com/2021/day/6) Lanternfish          |[⭐⭐](2021/day_06.py)| O(n) with constant memory 😉|
 |[07](https://adventofcode.com/2021/day/7)  -|-|
 |[08](https://adventofcode.com/2021/day/8)  -|-|
 |[09](https://adventofcode.com/2021/day/9)  -|-|
