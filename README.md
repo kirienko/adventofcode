@@ -8,8 +8,8 @@
 |[04](https://adventofcode.com/2021/day/4) Giant Squid          |[⭐⭐](2021/day_04.py)| sets and frozensets |
 |[05](https://adventofcode.com/2021/day/5) Hydrothermal Venture |[⭐⭐](2021/day_05.py)| `sympy` helps |
 |[06](https://adventofcode.com/2021/day/6) Lanternfish          |[⭐⭐](2021/day_06.py)| O(n) with constant memory 😉|
-|[07](https://adventofcode.com/2021/day/7) The Treachery of Whales |[⭐⭐](2021/day_07.py)||
-|[08](https://adventofcode.com/2021/day/8)  -|-|
+|[07](https://adventofcode.com/2021/day/7) The Treachery of Whales |[⭐⭐](2021/day_07.py)| five lines, imports included|
+|[08](https://adventofcode.com/2021/day/8) Seven Segment Search |[⭐⭐](2021/day_08.py)| sets are our best friends again|
 |[09](https://adventofcode.com/2021/day/9)  -|-|
 |[10](https://adventofcode.com/2021/day/10) -|-|
 |[11](https://adventofcode.com/2021/day/11) -|-|
