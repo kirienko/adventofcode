@@ -1,44 +1,37 @@
-import pandas as pd
+import networkx as nx
+import matplotlib.pyplot as plt
 
 with open('./test/day_09.txt') as fd:
     raw = fd.read()
 
-data = pd.DataFrame((pd.to_numeric(list(x)) for x in raw.split('\n')), dtype=int)
-
+data = raw.split('\n')
+rows, cols = len(data), len(data[0])
 # print(data)
-# print(data.shape)
+print(rows, cols)
+
+grid = nx.Graph()
+# create a grid with values on the nodes
+for i in range(rows):
+    for j in range(cols):
+        grid.add_node(i * cols + j, val=int(data[i][j]))
+        if j != cols - 1:
+            grid.add_edge(i * cols + j, i * cols + j + 1)
+        if i != rows - 1:
+            grid.add_edge(i * cols + j, (i + 1) * cols + j)
+print(grid)
 
 
-def adj(df: pd.DataFrame, i: int, j: int) -> tuple:
-    """ Returns a list of values of elements adjacent to elem[i][j] in the array df """
-    sx, sy = df.shape
-    sx -= 1
-    sy -= 1
-    if 0 < i < sx and 0 < j < sy:
-        return df.loc[i-1, j], df.loc[i+1, j], df.loc[i, j-1], df.loc[i, j+1]
-    elif i in (0, sx) and 0 < j < sy:
-        return df.loc[i, j-1], df.loc[i, j+1], df.loc[abs(i-1), j]
-    elif 0 < i < sx and j in (0, sy):
-        return df.loc[i-1, j], df.loc[i+1, j], df.loc[i, abs(j-1)]
-    else:
-        return df.loc[i, abs(j-1)], df.loc[abs(i-1), j]
-
-
-def min_adj(elem: int, arr: tuple) -> bool:
+def min_adj(G: nx.graph, elem: int) -> bool:
     """ True if the point is lower than all its adjacent """
-    return elem < min(arr)
+    return G.nodes[elem]['val'] < min(G.nodes[x]['val'] for x in G.neighbors(elem))
 
 
 risk_level = 0
-for i in range(data.shape[0]):
-    for j in range(data.shape[1]):
-        # print(f"{i}, {j} ({data.loc[i, j]})", end=': ')
-        # print(adj(data, i, j), end=' ')
-        if min_adj(data.loc[i,j], adj(data, i, j)):
-            print(f"*{data.loc[i,j]}*", end='')
-            risk_level += 1 + data.loc[i, j]
-        else:
-            print(f" {data.loc[i,j]} ", end='')
-    print()
+# basin_dict = nx.Graph()
+for i in range(rows):
+    for j in range(cols):
+        node = i * cols + j
+        if min_adj(grid, node):
+            risk_level += 1 + grid.nodes[node]['val']
 
 print(f"Answer 1: {risk_level}")
