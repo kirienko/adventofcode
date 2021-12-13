@@ -14,7 +14,7 @@
 |[10](https://adventofcode.com/2021/day/10) Syntax Scoring       |[⭐⭐](2021/day_10.py)|
 |[11](https://adventofcode.com/2021/day/11) Dumbo Octopus        |[⭐⭐](2021/day_11.py)| `networkx` again; debug: colored output|
 |[12](https://adventofcode.com/2021/day/12) Passage Pathing      |-| |
-|[13](https://adventofcode.com/2021/day/13) -|-|
+|[13](https://adventofcode.com/2021/day/13) Transparent Origami  |[⭐⭐](2021/day_13.py)||
 |[14](https://adventofcode.com/2021/day/14) -|-|
 |[15](https://adventofcode.com/2021/day/15) -|-|
 |[16](https://adventofcode.com/2021/day/16) -|-|
