@@ -13,7 +13,7 @@
 |[09](https://adventofcode.com/2021/day/9)  Smoke Basin          |[⭐⭐](2021/day_09.py)| basins are `networkx` graphs (on a grid) |
 |[10](https://adventofcode.com/2021/day/10) Syntax Scoring       |[⭐⭐](2021/day_10.py)|
 |[11](https://adventofcode.com/2021/day/11) Dumbo Octopus        |[⭐⭐](2021/day_11.py)| `networkx` again; debug: colored output|
-|[12](https://adventofcode.com/2021/day/12) -|-|
+|[12](https://adventofcode.com/2021/day/12) Passage Pathing      |-| |
 |[13](https://adventofcode.com/2021/day/13) -|-|
 |[14](https://adventofcode.com/2021/day/14) -|-|
 |[15](https://adventofcode.com/2021/day/15) -|-|
