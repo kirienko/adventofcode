@@ -80,9 +80,9 @@ def parse(s: str, rec=None, DEBUG=True):
     return version, i, value
 
 
-# print(parse(bits('D2FE28')))    # (6, 4, 2021)
+# print(parse(bits('D2FE28')))    # (6, 4, year_2021)
 
-# assert parse(bits('D2FE28')) == (6, 4, 2021)
+# assert parse(bits('D2FE28')) == (6, 4, year_2021)
 # assert parse(bits('D2FE28')) == (6, 21, '011111100101')
 
 ## Two subpackets in 27 bits:
