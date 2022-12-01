@@ -27,14 +27,12 @@ def silly_bfs(graph: nx.Graph, start: str, end: str):
         node = queue.pop()
         print(f"{node}", end='->')
         if node == end:
-            # return True
-            print()
             continue
         for n in graph.neighbors(node):
             if n.islower() and visited[n] == 1:
                 continue
             else:
-                paths += [[node]]
+                paths += [paths[-1] + [node]]
                 queue += [n]
                 visited[n] = 1
                 for p in paths:
