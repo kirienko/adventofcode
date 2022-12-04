@@ -7,7 +7,7 @@
 | [01](https://adventofcode.com/2022/day/1) Calorie Counting        | [⭐⭐](year_2022/day_01.py) ||
 | [02](https://adventofcode.com/2022/day/2) Rock Paper Scissors     | [⭐⭐](year_2022/day_02.py) ||
 | [03](https://adventofcode.com/2022/day/3) Rucksack Reorganization | [⭐⭐](year_2022/day_03.py) | sets are our best friends, as usual |
-| [04](https://adventofcode.com/2022/day/4)                         |                           |                                     |
+| [04](https://adventofcode.com/2022/day/4) Camp Cleanup            | [⭐⭐](year_2022/day_04.py) | sets again, also a generator        |
 | [05](https://adventofcode.com/2022/day/5)                         |                           |                                     |
 | [06](https://adventofcode.com/2022/day/6)                         |                           |                                     |
 | [07](https://adventofcode.com/2022/day/7)                         |                           |                                     |
