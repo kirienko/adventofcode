@@ -8,7 +8,7 @@
 | [02](https://adventofcode.com/2022/day/2) Rock Paper Scissors     | [⭐⭐](year_2022/day_02.py) ||
 | [03](https://adventofcode.com/2022/day/3) Rucksack Reorganization | [⭐⭐](year_2022/day_03.py) | sets are our best friends, as usual |
 | [04](https://adventofcode.com/2022/day/4) Camp Cleanup            | [⭐⭐](year_2022/day_04.py) | sets again, also a generator        |
-| [05](https://adventofcode.com/2022/day/5)                         |                           |                                     |
+| [05](https://adventofcode.com/2022/day/5) Supply Stacks           | [⭐⭐](year_2022/day_05.py) |                                     |
 | [06](https://adventofcode.com/2022/day/6)                         |                           |                                     |
 | [07](https://adventofcode.com/2022/day/7)                         |                           |                                     |
 | [08](https://adventofcode.com/2022/day/8)                         |                           |                                     |
