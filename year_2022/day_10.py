@@ -1,33 +1,49 @@
 def read(text: str) -> list:
-    program = []
+    """ Reads the instruction and returns a list of values to add
+
+    at the end of every cycle: [0, 0, 15, 0, -11, ...]
+    """
+    cycles = []
     for line in text.strip().split('\n'):
         if line.startswith('noop'):
-            program += [(1, 0)]
+            cycles += [0]
         else:
-            program += [(2, int(line.split()[1]))]
-    return program
+            cycles += [0, int(line.split()[1])]
+    return cycles
+
+
+def show(screen: str):
+    assert len(screen) == 240
+    print()
+    for i in range(6):
+        print(f"Cycle {40 * i + 1:> 4} ->", end=' ')
+        for j in range(40):
+            pos = i * 40 + j
+            print(screen[pos], end='')
+        print(f" <- Cycle {40 * (i + 1)}")
 
 
 def task1(text: str) -> int:
-    x, cycle, result = 1, 1, 0
-    program = read(text)
-    # print()
-    for i, line in enumerate(program):
-        if (cycle + 20) % 40 == 0:
-            # print(f"{i} (+20), {cycle=}: {line}: {x=}")
-            result += cycle * x
-        elif (cycle + 20) % 40 == 1 and program[i-1][0] == 2:
-            # print(f"{i} (+19), cycle={cycle-1}: x={x - program[i-1][1]}")
-            result += (cycle-1) * (x - program[i-1][1])
-
-        cycle += line[0]
-        x += line[1]
-
+    x, result = 1, 0
+    cycles = read(text)
+    for cycle, val in enumerate(cycles):
+        if (cycle + 20 + 1) % 40 == 0:
+            result += (cycle + 1) * x
+        x += val
     return result
 
 
-def task2(text: str) -> int:
-    return 1
+def task2(text: str) -> None:
+    x, cycle = 1, 1
+    sprite = [x-1, x, x+1]
+    result = ''
+    cycles = read(text)
+    for i, val in enumerate(cycles):
+        result += '#' if i % 40 in sprite else '.'
+        x += val
+        sprite = [x-1, x, x+1]
+    show(result)
+    return result
 
 
 if __name__ == "__main__":
@@ -35,4 +51,4 @@ if __name__ == "__main__":
         data = fd.read()
 
     print(task1(data))
-    # print(task2(data))
+    task2(data)

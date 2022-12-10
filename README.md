@@ -13,7 +13,7 @@
 | [07](https://adventofcode.com/2022/day/7) No Space Left On Device | [⭐⭐](year_2022/day_07.py) | make a file tree with `networkx` first |
 | [08](https://adventofcode.com/2022/day/8) Treetop Tree House      | [⭐⭐](year_2022/day_08.py) | `numpy` arrays are very handy          |
 | [09](https://adventofcode.com/2022/day/9)                         |                           |                                        |
-| [10](https://adventofcode.com/2022/day/10)                        |                           |
+| [10](https://adventofcode.com/2022/day/10) Cathode-Ray Tube       | [⭐⭐](year_2022/day_10.py) |
 | [11](https://adventofcode.com/2022/day/11)                        |                           |                                        |
 | [12](https://adventofcode.com/2022/day/12)                        |                           |                                        |
 | [13](https://adventofcode.com/2022/day/13)                        |                           ||
