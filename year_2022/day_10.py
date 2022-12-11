@@ -33,7 +33,7 @@ def task1(text: str) -> int:
     return result
 
 
-def task2(text: str) -> None:
+def task2(text: str) -> str:
     x, cycle = 1, 1
     sprite = [x-1, x, x+1]
     result = ''
