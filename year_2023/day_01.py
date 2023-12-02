@@ -78,7 +78,7 @@ def sum_with_words(text):
 
 
 if __name__ == "__main__":
-    with open('data/day_01.txt') as fd:
+    with open('data/data_01.txt') as fd:
         data = fd.read()
 
     print(f"Part one: {sum_of_numbers(data)}")      # 55834

@@ -4,8 +4,8 @@
 
 | Task                                      |         Solution          | Comment                             |
 |-------------------------------------------|:-------------------------:|-------------------------------------|
-| [01](https://adventofcode.com/2023/day/1) | [⭐⭐](year_2023/day_01.py) | Surprizingly hard for the first day |
-| [02](https://adventofcode.com/2023/day/2) |                           |                                     |
+| [01](https://adventofcode.com/2023/day/1) | [⭐⭐](year_2023/day_01.py) | Surprisingly hard for the first day |
+| [02](https://adventofcode.com/2023/day/2) | [⭐⭐](year_2023/day_02.py) | Dictionary                          |
 | [03](https://adventofcode.com/2023/day/3) |                           |                                     |
 | [04](https://adventofcode.com/2023/day/4) |                           |                                     |
 | [05](https://adventofcode.com/2023/day/5) |                           |                                     |
