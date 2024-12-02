@@ -1,5 +1,5 @@
 from year_2024.day_02 import (count_safe, is_safe,
-                              is_safe_singe_bad, count_safe_singe_bad)
+                              is_safe_single_bad, count_safe_single_bad)
 
 text = """
 7 6 4 2 1
@@ -20,11 +20,11 @@ def test_is_safe():
 def test_count_safe():
     assert count_safe(lvl_lists) == 2
 
-def test_is_safe_singe_bad():
+def test_is_safe_single_bad():
     expected2 = (True, False, False, True, True, True)
     for levels, e in zip(lvl_lists, expected2):
         if not is_safe(levels):
-            assert is_safe_singe_bad(levels) == e
+            assert is_safe_single_bad(levels) == e
 
-def test_count_safe_singe_bad():
-    assert count_safe_singe_bad(lvl_lists) == 4
+def test_count_safe_single_bad():
+    assert count_safe_single_bad(lvl_lists) == 4

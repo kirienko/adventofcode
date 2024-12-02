@@ -15,15 +15,15 @@ def count_safe(lvl_list:list[list[int]]) -> int:
     return sum(is_safe(l) for l in lvl_list)
 
 
-def is_safe_singe_bad(levels: list[int]) -> bool:
+def is_safe_single_bad(levels: list[int]) -> bool:
     for i in range(len(levels)):
         if is_safe(levels[:i]+levels[i+1:]):
             return True
     return False
 
 
-def count_safe_singe_bad(levels: list[list[int]]) -> int:
-    return sum(is_safe(lvl) or is_safe_singe_bad(lvl) for lvl in levels)
+def count_safe_single_bad(levels: list[list[int]]) -> int:
+    return sum(is_safe(lvl) or is_safe_single_bad(lvl) for lvl in levels)
 
 
 if __name__ == "__main__":
@@ -31,4 +31,4 @@ if __name__ == "__main__":
         data = f.read()
     lvl_lists = [list(map(int, line.split())) for line in data.strip().splitlines()]
     print(count_safe(lvl_lists))
-    print(count_safe_singe_bad(lvl_lists))
+    print(count_safe_single_bad(lvl_lists))
