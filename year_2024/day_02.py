@@ -5,16 +5,14 @@ def is_safe(levels: list[int]) -> bool:
             return False
 
     # Check that all diffs are positive or all diffs are negative
-    if all(diff > 0 for diff in diffs):
-        return True
-    elif all(diff < 0 for diff in diffs):
+    if all(diff > 0 for diff in diffs) or all(diff < 0 for diff in diffs):
         return True
     else:
         return False
 
 
 def count_safe(lvl_list:list[list[int]]) -> int:
-    return sum(int(is_safe(l)) for l in lvl_list)
+    return sum(is_safe(l) for l in lvl_list)
 
 
 def is_safe_singe_bad(levels: list[int]) -> bool:
@@ -25,14 +23,7 @@ def is_safe_singe_bad(levels: list[int]) -> bool:
 
 
 def count_safe_singe_bad(levels: list[list[int]]) -> int:
-    count = 0
-    for lvl in levels:
-        if is_safe(lvl):
-            count += 1
-        else:
-            if is_safe_singe_bad(lvl):
-                count += 1
-    return count
+    return sum(is_safe(lvl) or is_safe_singe_bad(lvl) for lvl in levels)
 
 
 if __name__ == "__main__":
