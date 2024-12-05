@@ -1,4 +1,4 @@
-from year_2024.day_05 import fix_incorrect, get_middle, is_correct, parse_input
+from year_2024.day_05 import fix_incorrect, middle, is_correct, parse_input
 
 input_str = """
 47|53
@@ -33,22 +33,22 @@ input_str = """
 
 rules, updates = parse_input(input_str)
 
-def test_get_middle():
-    assert get_middle([75, 47, 61, 53, 29]) == 61
+def test_middle():
+    assert middle([75, 47, 61, 53, 29]) == 61
 
 def test_is_correct():
     assert is_correct(rules, (75,47,61,53,29))
     assert is_correct(rules, (97,13,75,29,47)) == False
 
 def test_fix_incorrect():
-    assert fix_incorrect(rules, (75,97,47,61,53)) == (97,75,47,61,53)
-    assert fix_incorrect(rules, (61,13,29)) == (61,29,13)
-    assert fix_incorrect(rules, (97,13,75,29,47)) == (97,75,47,29,13)
+    assert middle(fix_incorrect(rules, (75, 97, 47, 61, 53))) == middle((97, 75, 47, 61, 53))
+    assert middle(fix_incorrect(rules, (61, 13, 29))) == middle((61, 29, 13))
+    assert middle(fix_incorrect(rules, (97, 13, 75, 29, 47))) == middle((97, 75, 47, 29, 13))
 
 def test_sum_correct():
-    assert  sum(get_middle(update) for update in updates if is_correct(rules, update)) == 143
+    assert sum(middle(update) for update in updates if is_correct(rules, update)) == 143
 
 def test_sum_corrected():
-    assert  sum(get_middle(fix_incorrect(rules, update))
+    assert  sum(middle(fix_incorrect(rules, update))
                 for update in updates if not is_correct(rules, update)) == 123
 

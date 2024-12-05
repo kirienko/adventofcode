@@ -8,6 +8,7 @@
 | [02](https://adventofcode.com/2024/day/2) | [⭐⭐](year_2024/day_02.py) |                                              | 
 | [03](https://adventofcode.com/2024/day/3) | [⭐⭐](year_2024/day_03.py) | The power of `regex`                         |
 | [04](https://adventofcode.com/2024/day/4) | [⭐⭐](year_2024/day_04.py) | `numpy` + `regex` + simple matrix operations |
+| [05](https://adventofcode.com/2024/day/5) | [⭐⭐](year_2024/day_05.py) | Topological sorting                          |
 
 ## Previous years:
 * [2020](year_2020/README.md)
