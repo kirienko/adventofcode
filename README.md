@@ -11,6 +11,7 @@
 | [05](https://adventofcode.com/2024/day/5) | [⭐⭐](year_2024/day_05.py) | Topological sorting                                          |
 | [06](https://adventofcode.com/2024/day/6) | [⭐⭐](year_2024/day_06.py) | Brute force takes less than 30 secs                          |
 | [07](https://adventofcode.com/2024/day/7) | [⭐⭐](year_2024/day_07.py) | `itertools` and Cartesian product. Brute force again, sorry. |
+| [08](https://adventofcode.com/2024/day/8) | [⭐⭐](year_2024/day_08.py) | Simple vector operations (`numpy`)                           |
 
 ## Previous years:
 * [2020](year_2020/README.md)
