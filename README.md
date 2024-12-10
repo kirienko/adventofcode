@@ -12,6 +12,7 @@
 | [06](https://adventofcode.com/2024/day/6) | [⭐⭐](year_2024/day_06.py) | Brute force takes less than 30 secs                          |
 | [07](https://adventofcode.com/2024/day/7) | [⭐⭐](year_2024/day_07.py) | `itertools` and Cartesian product. Brute force again, sorry. |
 | [08](https://adventofcode.com/2024/day/8) | [⭐⭐](year_2024/day_08.py) | Simple vector operations (`numpy`)                           |
+| [09](https://adventofcode.com/2024/day/9) | [⭐](year_2024/day_09.py)  | Part 1: `deque` with `numpy` do it fast                      |
 
 ## Previous years:
 * [2020](year_2020/README.md)
