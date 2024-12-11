@@ -13,6 +13,6 @@
 | [07](https://adventofcode.com/2023/day/7) | [⭐⭐](year_2023/day_07.py) | Classes are useful, sometimes       |
 
 ## Previous years:
-* [2020](year_2020/README.md)
-* [2021](year_2021/README.md)
-* [2022](year_2022/README.md)
+* [2020](../year_2020/README.md)
+* [2021](../year_2021/README.md)
+* [2022](../year_2022/README.md)

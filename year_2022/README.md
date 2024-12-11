@@ -32,5 +32,5 @@
 
 
 ## Previous years:
-* [2020](year_2020/README.md)
-* [2021](year_2021/README.md)
+* [2020](../year_2020/README.md)
+* [2021](../year_2021/README.md)
